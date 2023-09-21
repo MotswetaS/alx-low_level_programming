@@ -3,8 +3,9 @@
 void first(void) __attribute__ ((constructor));
 
 /**
- * first - prints a sentence 
+ * first - is a function that prints a sentence
  * function is executed
+ * You're beat! and yet, you must allow,\nI bore my house upon my back is the sentence
  */
 void first(void)
 {
