@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * get_endianness - with this function we are
- * checking the endianess of a function
+ * get_endianness - In this function we will be checking funcion endianess
+ *
  * Return: 0 is  big endian, 1 is little endian
  */
 int get_endianness(void)
