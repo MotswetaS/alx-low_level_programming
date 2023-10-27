@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * get_bit - this function returns the value of a bit from any given index
- * @n: number to search
- * @index: starting from 0
+ * get_bit - In this function, we will be returning
+ * the value of a bit from any given index
+ * @n: is the number to search
+ * @index: will start from 0
  *
  * Return: value of the bit or 1
  */
