@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * clear_bit - we are setting the value of a bit to 0 qt any given index
- * @n: pointer to the number
- * @index: start index from zero
+ * clear_bit - This function will be settingnbit value to 0 qt any given index
+ * @n: pointer (address) to the number
+ * @index: index begins from zero
  *
  * Return: 1 - success , -1 ifailure
  */
