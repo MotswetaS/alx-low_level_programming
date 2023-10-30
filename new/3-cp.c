@@ -6,8 +6,9 @@ char *create_buffer(char *file);
 void close_file(int fd);
 
 /**
- * create_buffer - Allocate memory for buffer , 1024 bytes exactly
- * @file: The name of the file buffer is storing chars for.
+ * create_buffer - In this function we are Allocating some memory for buffer,
+ * which is 1024 bytes exactly
+ * @file: File name
  *
  * Return: An address that points to newly-allocated buffer.
  */
@@ -28,8 +29,8 @@ char *create_buffer(char *file)
 }
 
 /**
- * close_file -we are cosing file descriptionss.
- * @fd: The file descriptor to be closed.
+ * close_file - closing file escriptions
+ * @fd: These are the file descriptor to be closed.
  */
 void close_file(int fd)
 {
@@ -45,11 +46,11 @@ void close_file(int fd)
 }
 
 /**
- * main - we are copying one file's contents into another file
- * @argc: The number of arguments supplied to the program.
- * @argv: An array of pointers to the arguments.
+ * main - In this function we are copying one file contents into another
+ * @argc: number of arguments supplied
+ * @argv: It is ann array made of pointer(address) to the arguments.
  *
- * Return: 0 on success or 97 / 98 / 99 / 100
+ * Return: 0 is success or 97 or 98 or 99 or 100
  */
 int main(int argc, char *argv[])
 {
