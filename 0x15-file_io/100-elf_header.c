@@ -18,7 +18,7 @@ void print_type(unsigned int e_type, unsigned char *e_ident);
 void close_elf(int elf);
 
 /**
- * check_elf - In this function we are checking if a file is 
+ * check_elf - In this function we are checking if a file is
  * available in an ELF file.
  * @e_ident: it is a pointer to an array containing the ELF magic numbers.
  *
